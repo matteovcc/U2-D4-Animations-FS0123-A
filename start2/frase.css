@@ -30,23 +30,22 @@
   /* .parole i{
     animation: anima 5s linear infinite;
 } */
-
-
+ 
   .parole i {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
   }
 
   #prima {
-    animation: anima-prima 4s  linear forwards;
+    animation: anima-prima 4s  infinite forwards;
   }
 
   #seconda {
-    animation: anima-seconda 4s linear forwards;
+    animation: anima-seconda 4s infinite forwards;
   }
 
   #terza {
-    animation: anima-terza 4s linear forwards;
+    animation: anima-terza 4s infinite forwards;
   }
 
   @keyframes anima-prima {
