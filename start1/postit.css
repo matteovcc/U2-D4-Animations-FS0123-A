@@ -50,15 +50,15 @@ body {
 }
 
 .blu {
-  background-image: linear-gradient(to bottom, lightblue, lightgrey);
+  background-image: linear-gradient(to bottom, lightblue, rgb(155, 155, 155));
 }
 
 .verde {
-  background-image: linear-gradient(to bottom, lightgreen, lightgrey);
+  background-image: linear-gradient(to bottom, lightgreen, rgb(155, 155, 155));
 }
 
 .rosso {
-  background-image: linear-gradient(rgba(255, 61, 61, 0.679), lightgrey);
+  background-image: linear-gradient(rgba(255, 61, 61, 0.679), rgb(155, 155, 155));
 }
 
 #first-row .blu {
