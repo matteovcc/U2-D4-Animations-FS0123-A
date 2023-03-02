@@ -8,7 +8,7 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width: 1000px) {
   #testoAlternato {
     width: 40%;
     margin-left: 10%;
@@ -17,7 +17,7 @@
     border: 3px solid rgb(129, 124, 124);
   }
 
-  #testoAlternato p {
+  #testoAlternato p { 
     font-size: 1.5em;
   }
 
@@ -30,14 +30,18 @@
   /* .parole i{
     animation: anima 5s linear infinite;
 } */
- 
+  .parole {
+    position: relative;
+  }
   .parole i {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    left: 10px;
   }
 
   #prima {
-    animation: anima-prima 4s  infinite forwards;
+    animation: anima-prima 4s infinite forwards;
   }
 
   #seconda {
